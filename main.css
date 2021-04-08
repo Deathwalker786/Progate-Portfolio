@@ -1,5 +1,6 @@
 *{
-    background-color: aquamarine;
+    background-color: black;
+    color:white;
 }
 .project {
     margin: 40px;
@@ -37,28 +38,48 @@ header h1 {
 }
 
 
-.skillstable {
-    display: table;
+.connect {
+    font-style: italic;
+    padding-right: 10px;
+    text-align: left;
+    
+}
+a.fa:hover{
+    color:red;
+}
+.fa{
     width: 100%;
 }
 
-.cell {
-    text-align: center;
-    list-style-type: none;
-}
-
-.onlinecell {
-    font-style: italic;
-    padding-right: 10px;
-}
-
-
-.edu p{
-    font-family:cursive;
-    font-size:medium;
-}
 .photo{
     margin: 10px;
     width:300px;
     height:200px
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: white;
+    text-align: justify;
+    font-size: 24px;
+    font-family: cursive;
+    width:100%;
+}
+a.button:hover{
+    color:red
+}
+.links{
+    line-break: auto;
+}
+.welcome img:hover{
+    animation-play-state: paused;
+}
+.welcome img{
+    
+    width: 400px;
+    height: 300px;
 }
