@@ -36,10 +36,6 @@ header h1 {
     margin-bottom: 4px;
 }
 
-header span {
-    font-size: 10pt;
-    float: right;
-}
 
 .skillstable {
     display: table;
@@ -56,14 +52,7 @@ header span {
     padding-right: 10px;
 }
 
-.urlcell {
-    display: table-cell;
-    letter-spacing: 1px;
-}
 
-.pagebreak {
-    page-break-before: always;
-}
 .edu p{
     font-family:cursive;
     font-size:medium;
