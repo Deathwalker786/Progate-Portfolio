@@ -1,0 +1,75 @@
+*{
+    background-color: aquamarine;
+}
+.project {
+    margin: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12pt;
+    text-align: center;
+}
+
+title{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    font-family: "Trajan Pro", serif;
+    padding-bottom: 10px;
+}
+
+.welcome h1{
+    font-style: italic;
+}
+
+.welcome p{
+    font-family: cursive;
+    font-size: 14pt;
+    font-weight: 500;
+    padding: 10px;
+    letter-spacing: 1px;
+}
+
+header h1 {
+    font-size: 20pt;
+    letter-spacing: 2pt;
+    border-bottom: 1px solid black;
+    margin-bottom: 4px;
+}
+
+header span {
+    font-size: 10pt;
+    float: right;
+}
+
+.skillstable {
+    display: table;
+    width: 100%;
+}
+
+.cell {
+    text-align: center;
+    list-style-type: none;
+}
+
+.onlinecell {
+    font-style: italic;
+    padding-right: 10px;
+}
+
+.urlcell {
+    display: table-cell;
+    letter-spacing: 1px;
+}
+
+.pagebreak {
+    page-break-before: always;
+}
+.edu p{
+    font-family:cursive;
+    font-size:medium;
+}
+.photo{
+    margin: 10px;
+    width:300px;
+    height:200px
+}
