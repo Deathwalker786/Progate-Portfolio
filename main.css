@@ -48,7 +48,9 @@ a.fa:hover{
     color:red;
 }
 .fa{
-    width: 100%;
+    width: max-content;
+    
+    text-align: center;
 }
 
 .photo{
@@ -58,16 +60,13 @@ a.fa:hover{
 }
 
 a.button {
-    -webkit-appearance: button;
-    -moz-appearance: button;
     appearance: button;
-
     text-decoration: none;
     color: white;
-    text-align: justify;
+    text-align: left justify;
     font-size: 24px;
     font-family: cursive;
-    width:100%;
+    width:max-content;
 }
 a.button:hover{
     color:red
@@ -82,4 +81,12 @@ a.button:hover{
     
     width: 400px;
     height: 300px;
+}
+
+.connect h2{
+    text-align: left;
+}
+
+.connect p{
+    text-align: left justify;
 }
